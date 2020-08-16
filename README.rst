@@ -57,6 +57,16 @@ Overview
 
 Quickly create disentanglement pipelines for machine learning research.
 
+This has prebuilt and functionality for tensorflow function wrappers, to make changing the architecture easy. Though it is not too hard to use keras, viewing the whole architecture on one page and making comparisons between different archtectures might be a bit of a pain and prone to errors. 
+
+Though this library can be used to wrap any tensorflow (or custom) keras module, making it useful for a variety of different fields of deep learning research. This library is called disentangle as my main focus of research is on disentanglement and much of the functionality (such as visualization tools, prebuilt architectures, etc) are biased towards that.
+
+There are a few parts of this which use functionality from disentanglement_lib, so please take a look at their work. This code is contained in other_library_tools.
+
+Other than tensorflow wrappers, this library contains useful functionality for datasets (custom, if needed), visualizations, and general useful tools such as timers and path managers.
+
+Thanks to ionelmc's cookiecutter-pylibrary for the generation of a pypi library with many good practices. So I could easily convert this library to be deployable to pypi.
+
 * Free software: MIT license
 
 Installation
