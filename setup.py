@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='disentangle',
-    version='0.0.3',
+    version='0.0.4',
     license='MIT',
     description='Quickly create disentanglement pipelines for machine learning research.',
     long_description='%s\n%s' % (
