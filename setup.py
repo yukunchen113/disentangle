@@ -73,13 +73,14 @@ setup(
         "opencv_python>=4.2.0.32",
         "h5py>=2.10.0",
         "numpy>=1.13.3",
-        "tensorflow>=2.1.0",
         "imageio>=2.6.1",
     ],
     extras_require={
         # eg:
         #   'rst': ['docutils>=0.11'],
         #   ':python_version=="2.6"': ['argparse'],
+        "tf":["tensorflow>=2.1.0"],
+        "tf_gpu":["tensorflow-gpu>=2.1.0"],
     },
     entry_points={
         'console_scripts': [
