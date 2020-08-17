@@ -70,11 +70,11 @@ setup(
     python_requires='>=3.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
-        "opencv_python">=4.2.0.32
-        "h5py">=2.10.0
-        "numpy">=1.13.3
-        "tensorflow">=2.1.0
-        "imageio">=2.6.1
+        "opencv_python>=4.2.0.32",
+        "h5py>=2.10.0",
+        "numpy>=1.13.3",
+        "tensorflow>=2.1.0",
+        "imageio>=2.6.1",
     ],
     extras_require={
         # eg:
